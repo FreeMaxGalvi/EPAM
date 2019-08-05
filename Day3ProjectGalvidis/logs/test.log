@@ -1,0 +1,166 @@
+15:43:03.913 TRACE maintask2.utils.Values 54 findExtrema - Enter
+15:43:03.913 TRACE maintask2.utils.Values 14 indexOfMaxEl - Enter
+15:43:03.913 TRACE maintask2.utils.Values 30 indexOfMaxEl - Exit with([I@43bd930a)
+15:43:03.913 TRACE maintask2.utils.Values 34 indexOfMinEl - Enter
+15:43:03.913 TRACE maintask2.utils.Values 50 indexOfMinEl - Exit with([I@5891e32e)
+15:43:03.913 TRACE maintask2.utils.Values 59 findExtrema - Exit with(Indexes of :
+max el: [0, 5]
+min el: [1, 4])
+15:43:03.913 TRACE maintask2.utils.Search 44 findAvg - Enter
+15:43:03.913 TRACE maintask2.utils.Search 12 arythmAvg - Enter
+15:43:03.913 TRACE maintask2.utils.Search 24 arythmAvg - Exit with(56.25)
+15:43:03.913 TRACE maintask2.utils.Search 28 geomAvg - Enter
+15:43:03.913 TRACE maintask2.utils.Search 40 geomAvg - Exit with(44.285831521097556)
+15:43:03.913 TRACE maintask2.utils.Search 45 findAvg - Exit with(Arythmetic average: 56.25
+Geometric average: 44.285831521097556 )
+15:43:03.913 TRACE maintask2.utils.Diagonals 52 isSymetric - Enter
+15:43:03.913 TRACE maintask2.utils.Diagonals 33 isSymetricSecondDiag - Enter
+15:43:03.913 TRACE maintask2.utils.Diagonals 48 isSymetricSecondDiag - Exit with(false)
+15:43:03.913 TRACE maintask2.utils.Diagonals 15 isSymetricMainDiag - Enter
+15:43:03.913 TRACE maintask2.utils.Diagonals 29 isSymetricMainDiag - Exit with(false)
+15:43:03.913 TRACE maintask2.utils.Diagonals 53 isSymetric - Exit with(false)
+15:43:03.913 TRACE maintask2.utils.Local 74 findIndexOfLocalExtrema - Enter
+15:43:03.928 TRACE maintask2.utils.Local 14 isExtrema - Enter
+15:43:03.928 TRACE maintask2.utils.Local 70 isExtrema - Exit with(true)
+15:43:03.928 TRACE maintask2.utils.Local 91 findIndexOfLocalExtrema - Exit with([I@cb0ed20)
+15:43:03.929 TRACE maintask2.utils.Transport 19 matrixTransposition - Enter
+15:43:03.929 TRACE maintask2.utils.Transport 29 matrixTransposition - Exit
+15:43:22.506 TRACE maintask2.utils.Values 54 findExtrema - Enter
+15:43:22.506 TRACE maintask2.utils.Values 14 indexOfMaxEl - Enter
+15:43:22.506 TRACE maintask2.utils.Values 30 indexOfMaxEl - Exit with([I@8e24743)
+15:43:22.506 TRACE maintask2.utils.Values 34 indexOfMinEl - Enter
+15:43:22.506 TRACE maintask2.utils.Values 50 indexOfMinEl - Exit with([I@74a10858)
+15:43:22.506 TRACE maintask2.utils.Values 59 findExtrema - Exit with(Indexes of :
+max el: [2, 1]
+min el: [0, 1])
+15:43:22.506 TRACE maintask2.utils.Search 44 findAvg - Enter
+15:43:22.506 TRACE maintask2.utils.Search 12 arythmAvg - Enter
+15:43:22.506 TRACE maintask2.utils.Search 24 arythmAvg - Exit with(48.5625)
+15:43:22.506 TRACE maintask2.utils.Search 28 geomAvg - Enter
+15:43:22.506 TRACE maintask2.utils.Search 40 geomAvg - Exit with(29.53294752602411)
+15:43:22.506 TRACE maintask2.utils.Search 45 findAvg - Exit with(Arythmetic average: 48.5625
+Geometric average: 29.53294752602411 )
+15:43:22.506 TRACE maintask2.utils.Diagonals 52 isSymetric - Enter
+15:43:22.506 TRACE maintask2.utils.Diagonals 33 isSymetricSecondDiag - Enter
+15:43:22.506 TRACE maintask2.utils.Diagonals 48 isSymetricSecondDiag - Exit with(false)
+15:43:22.506 TRACE maintask2.utils.Diagonals 15 isSymetricMainDiag - Enter
+15:43:22.506 TRACE maintask2.utils.Diagonals 29 isSymetricMainDiag - Exit with(false)
+15:43:22.506 TRACE maintask2.utils.Diagonals 53 isSymetric - Exit with(false)
+15:43:22.506 TRACE maintask2.utils.Local 74 findIndexOfLocalExtrema - Enter
+15:43:22.506 TRACE maintask2.utils.Local 14 isExtrema - Enter
+15:43:22.506 TRACE maintask2.utils.Local 70 isExtrema - Exit with(true)
+15:43:22.506 TRACE maintask2.utils.Local 91 findIndexOfLocalExtrema - Exit with([I@23fe1d71)
+15:43:22.506 TRACE maintask2.utils.Transport 19 matrixTransposition - Enter
+15:43:22.506 TRACE maintask2.utils.Transport 29 matrixTransposition - Exit
+15:43:27.226 TRACE maintask2.utils.Values 54 findExtrema - Enter
+15:43:27.226 TRACE maintask2.utils.Values 14 indexOfMaxEl - Enter
+15:43:27.226 TRACE maintask2.utils.Values 30 indexOfMaxEl - Exit with([I@28ac3dc3)
+15:43:27.226 TRACE maintask2.utils.Values 34 indexOfMinEl - Enter
+15:43:27.226 TRACE maintask2.utils.Values 50 indexOfMinEl - Exit with([I@32eebfca)
+15:43:27.226 TRACE maintask2.utils.Values 59 findExtrema - Exit with(Indexes of :
+max el: [2, 2]
+min el: [1, 1])
+15:43:27.226 TRACE maintask2.utils.Search 44 findAvg - Enter
+15:43:27.226 TRACE maintask2.utils.Search 12 arythmAvg - Enter
+15:43:27.226 TRACE maintask2.utils.Search 24 arythmAvg - Exit with(48.44444444444444)
+15:43:27.226 TRACE maintask2.utils.Search 28 geomAvg - Enter
+15:43:27.226 TRACE maintask2.utils.Search 40 geomAvg - Exit with(43.12328783377418)
+15:43:27.226 TRACE maintask2.utils.Search 45 findAvg - Exit with(Arythmetic average: 48.44444444444444
+Geometric average: 43.12328783377418 )
+15:43:27.226 TRACE maintask2.utils.Diagonals 52 isSymetric - Enter
+15:43:27.226 TRACE maintask2.utils.Diagonals 33 isSymetricSecondDiag - Enter
+15:43:27.226 TRACE maintask2.utils.Diagonals 48 isSymetricSecondDiag - Exit with(false)
+15:43:27.226 TRACE maintask2.utils.Diagonals 15 isSymetricMainDiag - Enter
+15:43:27.226 TRACE maintask2.utils.Diagonals 29 isSymetricMainDiag - Exit with(false)
+15:43:27.226 TRACE maintask2.utils.Diagonals 53 isSymetric - Exit with(false)
+15:43:27.226 TRACE maintask2.utils.Local 74 findIndexOfLocalExtrema - Enter
+15:43:27.226 TRACE maintask2.utils.Local 14 isExtrema - Enter
+15:43:27.226 TRACE maintask2.utils.Local 70 isExtrema - Exit with(true)
+15:43:27.226 TRACE maintask2.utils.Local 91 findIndexOfLocalExtrema - Exit with([I@4e718207)
+15:43:27.226 TRACE maintask2.utils.Transport 19 matrixTransposition - Enter
+15:43:27.226 TRACE maintask2.utils.Transport 29 matrixTransposition - Exit
+15:43:29.204 TRACE maintask2.utils.Values 54 findExtrema - Enter
+15:43:29.204 TRACE maintask2.utils.Values 14 indexOfMaxEl - Enter
+15:43:29.204 TRACE maintask2.utils.Values 30 indexOfMaxEl - Exit with([I@1d371b2d)
+15:43:29.204 TRACE maintask2.utils.Values 34 indexOfMinEl - Enter
+15:43:29.204 TRACE maintask2.utils.Values 50 indexOfMinEl - Exit with([I@543c6f6d)
+15:43:29.204 TRACE maintask2.utils.Values 59 findExtrema - Exit with(Indexes of :
+max el: [1, 1]
+min el: [0, 2])
+15:43:29.204 TRACE maintask2.utils.Search 44 findAvg - Enter
+15:43:29.204 TRACE maintask2.utils.Search 12 arythmAvg - Enter
+15:43:29.204 TRACE maintask2.utils.Search 24 arythmAvg - Exit with(67.75)
+15:43:29.204 TRACE maintask2.utils.Search 28 geomAvg - Enter
+15:43:29.204 TRACE maintask2.utils.Search 40 geomAvg - Exit with(58.465223211135836)
+15:43:29.204 TRACE maintask2.utils.Search 45 findAvg - Exit with(Arythmetic average: 67.75
+Geometric average: 58.465223211135836 )
+15:43:29.204 TRACE maintask2.utils.Diagonals 52 isSymetric - Enter
+15:43:29.204 TRACE maintask2.utils.Diagonals 33 isSymetricSecondDiag - Enter
+15:43:29.204 TRACE maintask2.utils.Diagonals 48 isSymetricSecondDiag - Exit with(false)
+15:43:29.204 TRACE maintask2.utils.Diagonals 15 isSymetricMainDiag - Enter
+15:43:29.204 TRACE maintask2.utils.Diagonals 29 isSymetricMainDiag - Exit with(false)
+15:43:29.204 TRACE maintask2.utils.Diagonals 53 isSymetric - Exit with(false)
+15:43:29.204 TRACE maintask2.utils.Local 74 findIndexOfLocalExtrema - Enter
+15:43:29.204 TRACE maintask2.utils.Local 14 isExtrema - Enter
+15:43:29.204 TRACE maintask2.utils.Local 70 isExtrema - Exit with(true)
+15:43:29.204 TRACE maintask2.utils.Local 91 findIndexOfLocalExtrema - Exit with([I@13eb8acf)
+15:43:29.204 TRACE maintask2.utils.Transport 19 matrixTransposition - Enter
+15:43:29.204 TRACE maintask2.utils.Transport 29 matrixTransposition - Exit
+15:43:31.638 TRACE maintask2.utils.Values 54 findExtrema - Enter
+15:43:31.638 TRACE maintask2.utils.Values 14 indexOfMaxEl - Enter
+15:43:31.638 TRACE maintask2.utils.Values 30 indexOfMaxEl - Exit with([I@51c8530f)
+15:43:31.638 TRACE maintask2.utils.Values 34 indexOfMinEl - Enter
+15:43:31.638 TRACE maintask2.utils.Values 50 indexOfMinEl - Exit with([I@7403c468)
+15:43:31.638 TRACE maintask2.utils.Values 59 findExtrema - Exit with(Indexes of :
+max el: [0, 3]
+min el: [2, 2])
+15:43:31.638 TRACE maintask2.utils.Search 44 findAvg - Enter
+15:43:31.638 TRACE maintask2.utils.Search 12 arythmAvg - Enter
+15:43:31.638 TRACE maintask2.utils.Search 24 arythmAvg - Exit with(54.166666666666664)
+15:43:31.638 TRACE maintask2.utils.Search 28 geomAvg - Enter
+15:43:31.638 TRACE maintask2.utils.Search 40 geomAvg - Exit with(44.29515274056818)
+15:43:31.638 TRACE maintask2.utils.Search 45 findAvg - Exit with(Arythmetic average: 54.166666666666664
+Geometric average: 44.29515274056818 )
+15:43:31.638 TRACE maintask2.utils.Diagonals 52 isSymetric - Enter
+15:43:31.638 TRACE maintask2.utils.Diagonals 33 isSymetricSecondDiag - Enter
+15:43:31.638 TRACE maintask2.utils.Diagonals 48 isSymetricSecondDiag - Exit with(false)
+15:43:31.638 TRACE maintask2.utils.Diagonals 15 isSymetricMainDiag - Enter
+15:43:31.638 TRACE maintask2.utils.Diagonals 29 isSymetricMainDiag - Exit with(false)
+15:43:31.638 TRACE maintask2.utils.Diagonals 53 isSymetric - Exit with(false)
+15:43:31.638 TRACE maintask2.utils.Local 74 findIndexOfLocalExtrema - Enter
+15:43:31.638 TRACE maintask2.utils.Local 14 isExtrema - Enter
+15:43:31.638 TRACE maintask2.utils.Local 70 isExtrema - Exit with(true)
+15:43:31.638 TRACE maintask2.utils.Local 91 findIndexOfLocalExtrema - Exit with([I@43738a82)
+15:43:31.638 TRACE maintask2.utils.Transport 19 matrixTransposition - Enter
+15:43:31.638 TRACE maintask2.utils.Transport 29 matrixTransposition - Exit
+15:43:34.329 TRACE maintask2.utils.Values 54 findExtrema - Enter
+15:43:34.329 TRACE maintask2.utils.Values 14 indexOfMaxEl - Enter
+15:43:34.329 TRACE maintask2.utils.Values 30 indexOfMaxEl - Exit with([I@c81cdd1)
+15:43:34.330 TRACE maintask2.utils.Values 34 indexOfMinEl - Enter
+15:43:34.330 TRACE maintask2.utils.Values 50 indexOfMinEl - Exit with([I@1fc2b765)
+15:43:34.330 TRACE maintask2.utils.Values 59 findExtrema - Exit with(Indexes of :
+max el: [2, 2]
+min el: [4, 6])
+15:43:34.330 TRACE maintask2.utils.Search 44 findAvg - Enter
+15:43:34.330 TRACE maintask2.utils.Search 12 arythmAvg - Enter
+15:43:34.330 TRACE maintask2.utils.Search 24 arythmAvg - Exit with(48.44897959183673)
+15:43:34.330 TRACE maintask2.utils.Search 28 geomAvg - Enter
+15:43:34.331 TRACE maintask2.utils.Search 40 geomAvg - Exit with(35.08286020558932)
+15:43:34.331 TRACE maintask2.utils.Search 45 findAvg - Exit with(Arythmetic average: 48.44897959183673
+Geometric average: 35.08286020558932 )
+15:43:34.331 TRACE maintask2.utils.Diagonals 52 isSymetric - Enter
+15:43:34.331 TRACE maintask2.utils.Diagonals 33 isSymetricSecondDiag - Enter
+15:43:34.331 TRACE maintask2.utils.Diagonals 48 isSymetricSecondDiag - Exit with(false)
+15:43:34.331 TRACE maintask2.utils.Diagonals 15 isSymetricMainDiag - Enter
+15:43:34.331 TRACE maintask2.utils.Diagonals 29 isSymetricMainDiag - Exit with(false)
+15:43:34.331 TRACE maintask2.utils.Diagonals 53 isSymetric - Exit with(false)
+15:43:34.331 TRACE maintask2.utils.Local 74 findIndexOfLocalExtrema - Enter
+15:43:34.331 TRACE maintask2.utils.Local 14 isExtrema - Enter
+15:43:34.331 TRACE maintask2.utils.Local 70 isExtrema - Exit with(false)
+15:43:34.332 TRACE maintask2.utils.Local 14 isExtrema - Enter
+15:43:34.332 TRACE maintask2.utils.Local 70 isExtrema - Exit with(false)
+15:43:34.332 TRACE maintask2.utils.Local 14 isExtrema - Enter
+15:43:34.332 TRACE maintask2.utils.Local 70 isExtrema - Exit with(true)
+15:43:34.332 TRACE maintask2.utils.Local 91 findIndexOfLocalExtrema - Exit with([I@75881071)
+15:43:34.332 TRACE maintask2.utils.Transport 19 matrixTransposition - Enter
+15:43:34.332 TRACE maintask2.utils.Transport 29 matrixTransposition - Exit
