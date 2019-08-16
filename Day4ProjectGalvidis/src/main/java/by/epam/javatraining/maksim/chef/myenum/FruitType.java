@@ -2,7 +2,14 @@ package by.epam.javatraining.maksim.chef.myenum;
 
 public enum FruitType {
 
-    CORN, CUCUMBER, PEPPER, TOMATO
+    CORN ("Corn"),
+    CUCUMBER ("Cucumber"),
+    PEPPER ("Pepper"),
+    TOMATO ("Tomato");
+    private String title;
 
 
+    FruitType(String title) {
+        this.title = title;
+    }
 }
