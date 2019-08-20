@@ -6,31 +6,31 @@ import by.epam.javatraining.maksim.chef.utils.Calculate;
 
 public class RootVegetable extends Vegetable{
 
-    private RootType searchRootType;
+    private RootType defineRootType;
     private double calories;
 
-    public RootVegetable(double weight, RootType searchRootType){
+    public RootVegetable(double weight, RootType defineRootType){
         super(weight);
-        this.searchRootType = searchRootType;
-        this.calories = Calculate.rootCalories(weight, searchRootType);
+        this.defineRootType = defineRootType;
+        this.calories = Calculate.rootCalories(weight, defineRootType);
     }
 
     @Override
-    public VegetableType searchVegetableType() {
+    public VegetableType defineVegetableType() {
         return VegetableType.ROOT_VEGETABLE;
     }
 
     @Override
     public String toString(){
-        return super.toString() +" calories = " + calories + "]";
+        return super.toString() + " " + defineRootType + " calories = " + calories + "]";
     }
 
-    public RootType getSearchRootType() {
-        return searchRootType;
+    public RootType getDefineRootType() {
+        return defineRootType;
     }
 
-    public void setSearchRootType(){
-        this.searchRootType = searchRootType;
+    public void setDefineRootType(){
+        this.defineRootType = defineRootType;
     }
 
     public double getCalories() {
@@ -58,7 +58,7 @@ public class RootVegetable extends Vegetable{
             return false;
         }
         RootVegetable other = (RootVegetable) obj;
-        if(calories != other.calories || searchRootType != other.searchRootType){
+        if(calories != other.calories || defineRootType != other.defineRootType){
             return false;
         }
         return true;

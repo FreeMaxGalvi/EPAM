@@ -1,7 +1,6 @@
 package by.epam.javatraining.maksim.chef.utils;
 
 import by.epam.javatraining.maksim.chef.entity.chefentity.Vegetable;
-import by.epam.javatraining.maksim.chef.entity.saladentity.Salad;
 import org.apache.log4j.Logger;
 
 import java.util.ArrayList;
@@ -33,13 +32,13 @@ public class SaladLogic {
 
     public List<Vegetable> sortVegetablesByCalories(List<Vegetable> listOfVegetables) {
         listOfVegetables.sort(Comparator.comparing(Vegetable::getCalories).reversed());
-        logger.info("Vegetables sorted by calories: " + listOfVegetables);
+        logger.info("\nVegetables sorted by calories: \n" + listOfVegetables);
         return listOfVegetables;
     }
 
     public List<Vegetable> sortVegetablesByWeight(List<Vegetable> listOfVegetables) {
         listOfVegetables.sort(Comparator.comparing(Vegetable::getWeight).reversed());
-        logger.info("Vegetables sorted by weight: " + listOfVegetables);
+        logger.info("\nVegetables sorted by weight: \n" + listOfVegetables);
         return listOfVegetables;
     }
 
@@ -53,7 +52,9 @@ public class SaladLogic {
                 bestVegetables.add(listOfVegetables.get(item));
             }
         }
-        logger.info("Fit vegetables are: " + bestVegetables);
+        logger.info("\nFit vegetables are: \n" + bestVegetables);
         return bestVegetables;
     }
+
+
 }

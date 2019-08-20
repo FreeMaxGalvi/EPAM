@@ -7,19 +7,19 @@ import by.epam.javatraining.maksim.chef.myenum.RootType;
 public class Calculate {
     public static double fruitCalories(double weight, FruitType searchFruitType){
 
-        double cal = 0;
+        double cal = weight;
         switch (searchFruitType){
             case CORN:
-                cal = weight * 123;
+                cal *= 123;
                 break;
             case PEPPER:
-                cal = weight * 27;
+                cal *= 27;
                 break;
             case TOMATO:
-                cal = weight * 20;
+                cal *= 20;
                 break;
             case CUCUMBER:
-                cal = weight * 13.5;
+                cal *= 13.5;
                 break;
         }
 
@@ -28,19 +28,19 @@ public class Calculate {
 
     public static double rootCalories(double weight, RootType searchFruitType){
 
-        double cal = 0;
+        double cal = weight;
         switch (searchFruitType){
             case BEET:
-                cal = weight * 43;
+                cal *= 43;
                 break;
             case CARROT:
-                cal = weight * 32;
+                cal *= 32;
                 break;
             case POTATO:
-                cal = weight * 77;
+                cal *= 77;
                 break;
             case RADISH:
-                cal = weight * 19;
+                cal *= 19;
                 break;
         }
 
@@ -49,17 +49,17 @@ public class Calculate {
 
     public static double leafCalories(double weight, LeafType searchFruitType){
 
-        double cal = 0;
+        double cal = weight;
         switch (searchFruitType){
             case CABBAGE:
-                cal = weight * 25;
+                cal *= 25;
                 break;
             case CELERY:
             case LETTUCE:
-                cal = weight * 15;
+                cal *= 15;
                 break;
             case SPINACH:
-                cal = weight * 22;
+                cal *= 22;
                 break;
         }
 

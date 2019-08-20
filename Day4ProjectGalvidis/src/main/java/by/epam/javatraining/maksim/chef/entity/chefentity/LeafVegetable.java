@@ -6,31 +6,31 @@ import by.epam.javatraining.maksim.chef.utils.Calculate;
 
 public class LeafVegetable extends Vegetable{
 
-    private LeafType searchLeafType;
+    private LeafType defineLeafType;
     private double calories;
 
-    public LeafVegetable(double weight, LeafType searchLeafType){
+    public LeafVegetable(double weight, LeafType defineLeafType){
         super(weight);
-        this.searchLeafType = searchLeafType;
-        this.calories = Calculate.leafCalories(weight, searchLeafType);
+        this.defineLeafType = defineLeafType;
+        this.calories = Calculate.leafCalories(weight, defineLeafType);
     }
 
     @Override
-    public VegetableType searchVegetableType() {
+    public VegetableType defineVegetableType() {
         return VegetableType.LEAF_VEGETABLE;
     }
 
     @Override
     public String toString(){
-        return super.toString() +" calories = " + calories + "]";
+        return super.toString() + " " + defineLeafType + " calories = " + calories + "]";
     }
 
-    public LeafType getSearchLeafType() {
-        return searchLeafType;
+    public LeafType getDefineLeafType() {
+        return defineLeafType;
     }
 
-    public void setSearchLeafType(){
-        this.searchLeafType = searchLeafType;
+    public void setDefineLeafType(){
+        this.defineLeafType = defineLeafType;
     }
 
     public double getCalories() {
@@ -58,7 +58,7 @@ public class LeafVegetable extends Vegetable{
             return false;
         }
         LeafVegetable other = (LeafVegetable) obj;
-        if(calories != other.calories || searchLeafType != other.searchLeafType){
+        if(calories != other.calories || defineLeafType != other.defineLeafType){
             return false;
         }
         return true;

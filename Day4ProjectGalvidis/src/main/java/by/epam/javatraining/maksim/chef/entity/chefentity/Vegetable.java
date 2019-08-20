@@ -14,11 +14,11 @@ public abstract class Vegetable {
 
     }
 
-    public abstract VegetableType searchVegetableType();
+    public abstract VegetableType defineVegetableType();
 
     @Override
     public String toString(){
-        return "[weight = " + weight + " " + searchVegetableType();
+        return "\n[weight = " + weight + " " + defineVegetableType();
     }
 
     public double getWeight(){

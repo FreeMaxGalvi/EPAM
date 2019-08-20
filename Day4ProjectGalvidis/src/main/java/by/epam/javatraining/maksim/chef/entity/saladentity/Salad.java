@@ -3,7 +3,10 @@ package by.epam.javatraining.maksim.chef.entity.saladentity;
 import by.epam.javatraining.maksim.chef.entity.chefentity.Vegetable;
 import by.epam.javatraining.maksim.chef.utils.DataLoader;
 
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Salad {
@@ -14,9 +17,9 @@ public class Salad {
         this.nameSalad = nameSalad;
     }
 
-    private List<Vegetable> listOfVegetables = new ArrayList<Vegetable>();
+    private static List<Vegetable> listOfVegetables = new ArrayList<Vegetable>();
 
-    public void addVegetable(Vegetable addVegetable){
+    public static void addVegetable(Vegetable addVegetable){
         listOfVegetables.add(addVegetable);
     }
 
@@ -24,12 +27,9 @@ public class Salad {
         return listOfVegetables;
     }
 
-    public void setVegetable(ArrayList<Vegetable> vegetable){
-        this.listOfVegetables = vegetable;
-    }
-
     public void setVegetable(List<Vegetable> vegetable){
-        this.listOfVegetables = (ArrayList<Vegetable>) vegetable;
+        Collections.copy(this.listOfVegetables, listOfVegetables);
+
     }
 
     public String getNameSalad(){
@@ -40,10 +40,10 @@ public class Salad {
         this.nameSalad = nameSalad;
     }
 
-    public void cutSalad(Salad salad) {
+    public static void cutSalad(File file, Salad salad) throws FileNotFoundException {
 
         DataLoader dataLoader = new DataLoader();
-        dataLoader.loadSaladData(salad);
+        dataLoader.loadSaladData(file, salad);
     }
 
     @Override

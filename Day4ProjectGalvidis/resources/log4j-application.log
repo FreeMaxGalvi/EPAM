@@ -3,3 +3,293 @@
 2019-08-16 15:27:51 INFO  SaladLogic:36 - Vegetables sorted by calories: []
 2019-08-16 15:27:51 INFO  SaladLogic:42 - Vegetables sorted by weight: []
 2019-08-16 15:27:51 INFO  SaladLogic:56 - Fit vegetables are: []
+2019-08-20 14:25:12 ERROR DataLoader:46 - java.lang.NullPointerException
+2019-08-20 14:25:12 INFO  SaladLogic:21 - Total calories: 0.0
+2019-08-20 14:25:12 INFO  SaladLogic:30 - Total weight: 0.0
+2019-08-20 14:25:12 INFO  SaladLogic:36 - Vegetables sorted by calories: []
+2019-08-20 14:25:12 INFO  SaladLogic:42 - Vegetables sorted by weight: []
+2019-08-20 14:25:12 INFO  SaladLogic:56 - Fit vegetables are: []
+2019-08-20 14:35:48 ERROR DataLoader:46 - java.lang.NullPointerException
+2019-08-20 14:35:48 INFO  SaladLogic:21 - Total calories: 0.0
+2019-08-20 14:35:48 INFO  SaladLogic:30 - Total weight: 0.0
+2019-08-20 14:35:48 INFO  SaladLogic:36 - Vegetables sorted by calories: []
+2019-08-20 14:35:48 INFO  SaladLogic:42 - Vegetables sorted by weight: []
+2019-08-20 14:35:48 INFO  SaladLogic:56 - Fit vegetables are: []
+2019-08-20 16:07:43 INFO  SaladLogic:21 - Total calories: 0.0
+2019-08-20 16:07:43 INFO  SaladLogic:30 - Total weight: 0.0
+2019-08-20 16:07:43 INFO  SaladLogic:36 - Vegetables sorted by calories: []
+2019-08-20 16:07:43 INFO  SaladLogic:42 - Vegetables sorted by weight: []
+2019-08-20 16:07:43 INFO  SaladLogic:56 - Fit vegetables are: []
+2019-08-20 16:08:09 INFO  SaladLogic:21 - Total calories: 0.0
+2019-08-20 16:08:09 INFO  SaladLogic:30 - Total weight: 0.0
+2019-08-20 16:08:09 INFO  SaladLogic:36 - Vegetables sorted by calories: []
+2019-08-20 16:08:09 INFO  SaladLogic:42 - Vegetables sorted by weight: []
+2019-08-20 16:08:09 INFO  SaladLogic:56 - Fit vegetables are: []
+2019-08-20 16:20:29 INFO  SaladLogic:21 - Total calories: 199.87
+2019-08-20 16:20:29 INFO  SaladLogic:30 - Total weight: 4.59
+2019-08-20 16:20:29 INFO  SaladLogic:36 - Vegetables sorted by calories: [[weight = 0.5 FRUIT_VEGETABLE calories = 61.5], [weight = 0.6 ROOT_VEGETABLE calories = 46.199999999999996], [weight = 0.89 ROOT_VEGETABLE calories = 38.27], [weight = 0.4 ROOT_VEGETABLE calories = 12.8], [weight = 0.9 FRUIT_VEGETABLE calories = 12.15], [weight = 0.3 FRUIT_VEGETABLE calories = 8.1], [weight = 0.3 LEAF_VEGETABLE calories = 7.5], [weight = 0.2 FRUIT_VEGETABLE calories = 4.0], [weight = 0.2 ROOT_VEGETABLE calories = 3.8000000000000003], [weight = 0.15 LEAF_VEGETABLE calories = 3.3], [weight = 0.1 LEAF_VEGETABLE calories = 1.5], [weight = 0.05 LEAF_VEGETABLE calories = 0.75]]
+2019-08-20 16:20:29 INFO  SaladLogic:42 - Vegetables sorted by weight: [[weight = 0.9 FRUIT_VEGETABLE calories = 12.15], [weight = 0.89 ROOT_VEGETABLE calories = 38.27], [weight = 0.6 ROOT_VEGETABLE calories = 46.199999999999996], [weight = 0.5 FRUIT_VEGETABLE calories = 61.5], [weight = 0.4 ROOT_VEGETABLE calories = 12.8], [weight = 0.3 FRUIT_VEGETABLE calories = 8.1], [weight = 0.3 LEAF_VEGETABLE calories = 7.5], [weight = 0.2 FRUIT_VEGETABLE calories = 4.0], [weight = 0.2 ROOT_VEGETABLE calories = 3.8000000000000003], [weight = 0.15 LEAF_VEGETABLE calories = 3.3], [weight = 0.1 LEAF_VEGETABLE calories = 1.5], [weight = 0.05 LEAF_VEGETABLE calories = 0.75]]
+2019-08-20 16:20:29 INFO  SaladLogic:56 - Fit vegetables are: [[weight = 0.9 FRUIT_VEGETABLE calories = 12.15], [weight = 0.89 ROOT_VEGETABLE calories = 38.27], [weight = 0.4 ROOT_VEGETABLE calories = 12.8], [weight = 0.3 FRUIT_VEGETABLE calories = 8.1], [weight = 0.3 LEAF_VEGETABLE calories = 7.5], [weight = 0.2 FRUIT_VEGETABLE calories = 4.0], [weight = 0.2 ROOT_VEGETABLE calories = 3.8000000000000003], [weight = 0.15 LEAF_VEGETABLE calories = 3.3]]
+2019-08-20 16:21:39 INFO  SaladLogic:21 - Total calories: 199.87
+2019-08-20 16:21:39 INFO  SaladLogic:30 - Total weight: 4.59
+2019-08-20 16:21:39 INFO  SaladLogic:36 - Vegetables sorted by calories: [[weight = 0.5 FRUIT_VEGETABLE calories = 61.5]
+, [weight = 0.6 ROOT_VEGETABLE calories = 46.199999999999996]
+, [weight = 0.89 ROOT_VEGETABLE calories = 38.27]
+, [weight = 0.4 ROOT_VEGETABLE calories = 12.8]
+, [weight = 0.9 FRUIT_VEGETABLE calories = 12.15]
+, [weight = 0.3 FRUIT_VEGETABLE calories = 8.1]
+, [weight = 0.3 LEAF_VEGETABLE calories = 7.5]
+, [weight = 0.2 FRUIT_VEGETABLE calories = 4.0]
+, [weight = 0.2 ROOT_VEGETABLE calories = 3.8000000000000003]
+, [weight = 0.15 LEAF_VEGETABLE calories = 3.3]
+, [weight = 0.1 LEAF_VEGETABLE calories = 1.5]
+, [weight = 0.05 LEAF_VEGETABLE calories = 0.75]
+]
+2019-08-20 16:21:39 INFO  SaladLogic:42 - Vegetables sorted by weight: [[weight = 0.9 FRUIT_VEGETABLE calories = 12.15]
+, [weight = 0.89 ROOT_VEGETABLE calories = 38.27]
+, [weight = 0.6 ROOT_VEGETABLE calories = 46.199999999999996]
+, [weight = 0.5 FRUIT_VEGETABLE calories = 61.5]
+, [weight = 0.4 ROOT_VEGETABLE calories = 12.8]
+, [weight = 0.3 FRUIT_VEGETABLE calories = 8.1]
+, [weight = 0.3 LEAF_VEGETABLE calories = 7.5]
+, [weight = 0.2 FRUIT_VEGETABLE calories = 4.0]
+, [weight = 0.2 ROOT_VEGETABLE calories = 3.8000000000000003]
+, [weight = 0.15 LEAF_VEGETABLE calories = 3.3]
+, [weight = 0.1 LEAF_VEGETABLE calories = 1.5]
+, [weight = 0.05 LEAF_VEGETABLE calories = 0.75]
+]
+2019-08-20 16:21:39 INFO  SaladLogic:56 - Fit vegetables are: [[weight = 0.9 FRUIT_VEGETABLE calories = 12.15]
+, [weight = 0.89 ROOT_VEGETABLE calories = 38.27]
+, [weight = 0.4 ROOT_VEGETABLE calories = 12.8]
+, [weight = 0.3 FRUIT_VEGETABLE calories = 8.1]
+, [weight = 0.3 LEAF_VEGETABLE calories = 7.5]
+, [weight = 0.2 FRUIT_VEGETABLE calories = 4.0]
+, [weight = 0.2 ROOT_VEGETABLE calories = 3.8000000000000003]
+, [weight = 0.15 LEAF_VEGETABLE calories = 3.3]
+]
+2019-08-20 16:23:58 INFO  SaladLogic:21 - Total calories: 199.87
+2019-08-20 16:23:58 INFO  SaladLogic:30 - Total weight: 4.59
+2019-08-20 16:23:58 INFO  SaladLogic:36 - Vegetables sorted by calories: [[weight = 0.5 FRUIT_VEGETABLE calories = 61.5]
+, [weight = 0.6 ROOT_VEGETABLE calories = 46.199999999999996]
+, [weight = 0.89 ROOT_VEGETABLE calories = 38.27]
+, [weight = 0.4 ROOT_VEGETABLE calories = 12.8]
+, [weight = 0.9 FRUIT_VEGETABLE calories = 12.15]
+, [weight = 0.3 FRUIT_VEGETABLE calories = 8.1]
+, [weight = 0.3 LEAF_VEGETABLE calories = 7.5]
+, [weight = 0.2 FRUIT_VEGETABLE calories = 4.0]
+, [weight = 0.2 ROOT_VEGETABLE calories = 3.8000000000000003]
+, [weight = 0.15 LEAF_VEGETABLE calories = 3.3]
+, [weight = 0.1 LEAF_VEGETABLE calories = 1.5]
+, [weight = 0.05 LEAF_VEGETABLE calories = 0.75]
+]
+2019-08-20 16:23:58 INFO  SaladLogic:42 - Vegetables sorted by weight: [[weight = 0.9 FRUIT_VEGETABLE calories = 12.15]
+, [weight = 0.89 ROOT_VEGETABLE calories = 38.27]
+, [weight = 0.6 ROOT_VEGETABLE calories = 46.199999999999996]
+, [weight = 0.5 FRUIT_VEGETABLE calories = 61.5]
+, [weight = 0.4 ROOT_VEGETABLE calories = 12.8]
+, [weight = 0.3 FRUIT_VEGETABLE calories = 8.1]
+, [weight = 0.3 LEAF_VEGETABLE calories = 7.5]
+, [weight = 0.2 FRUIT_VEGETABLE calories = 4.0]
+, [weight = 0.2 ROOT_VEGETABLE calories = 3.8000000000000003]
+, [weight = 0.15 LEAF_VEGETABLE calories = 3.3]
+, [weight = 0.1 LEAF_VEGETABLE calories = 1.5]
+, [weight = 0.05 LEAF_VEGETABLE calories = 0.75]
+]
+2019-08-20 16:23:58 INFO  SaladLogic:56 - Fit vegetables are: [[weight = 0.3 FRUIT_VEGETABLE calories = 8.1]
+, [weight = 0.3 LEAF_VEGETABLE calories = 7.5]
+, [weight = 0.2 FRUIT_VEGETABLE calories = 4.0]
+, [weight = 0.2 ROOT_VEGETABLE calories = 3.8000000000000003]
+, [weight = 0.15 LEAF_VEGETABLE calories = 3.3]
+, [weight = 0.1 LEAF_VEGETABLE calories = 1.5]
+, [weight = 0.05 LEAF_VEGETABLE calories = 0.75]
+]
+2019-08-20 16:24:28 INFO  SaladLogic:30 - Total weight: 1.7
+2019-08-20 16:24:28 INFO  SaladLogic:21 - Total calories: 36.8
+2019-08-20 16:24:28 INFO  SaladLogic:56 - Fit vegetables are: [[weight = 0.6 LEAF_VEGETABLE calories = 9.0]
+]
+2019-08-20 16:37:11 INFO  SaladLogic:20 - Total calories: 199.87
+2019-08-20 16:37:11 INFO  SaladLogic:29 - Total weight: 4.59
+2019-08-20 16:37:11 INFO  SaladLogic:35 - Vegetables sorted by calories: [[weight = 0.5 FRUIT_VEGETABLE calories = 61.5]
+, [weight = 0.6 ROOT_VEGETABLE calories = 46.199999999999996]
+, [weight = 0.89 ROOT_VEGETABLE calories = 38.27]
+, [weight = 0.4 ROOT_VEGETABLE calories = 12.8]
+, [weight = 0.9 FRUIT_VEGETABLE calories = 12.15]
+, [weight = 0.3 FRUIT_VEGETABLE calories = 8.1]
+, [weight = 0.3 LEAF_VEGETABLE calories = 7.5]
+, [weight = 0.2 FRUIT_VEGETABLE calories = 4.0]
+, [weight = 0.2 ROOT_VEGETABLE calories = 3.8000000000000003]
+, [weight = 0.15 LEAF_VEGETABLE calories = 3.3]
+, [weight = 0.1 LEAF_VEGETABLE calories = 1.5]
+, [weight = 0.05 LEAF_VEGETABLE calories = 0.75]
+]
+2019-08-20 16:37:11 INFO  SaladLogic:41 - Vegetables sorted by weight: [[weight = 0.9 FRUIT_VEGETABLE calories = 12.15]
+, [weight = 0.89 ROOT_VEGETABLE calories = 38.27]
+, [weight = 0.6 ROOT_VEGETABLE calories = 46.199999999999996]
+, [weight = 0.5 FRUIT_VEGETABLE calories = 61.5]
+, [weight = 0.4 ROOT_VEGETABLE calories = 12.8]
+, [weight = 0.3 FRUIT_VEGETABLE calories = 8.1]
+, [weight = 0.3 LEAF_VEGETABLE calories = 7.5]
+, [weight = 0.2 FRUIT_VEGETABLE calories = 4.0]
+, [weight = 0.2 ROOT_VEGETABLE calories = 3.8000000000000003]
+, [weight = 0.15 LEAF_VEGETABLE calories = 3.3]
+, [weight = 0.1 LEAF_VEGETABLE calories = 1.5]
+, [weight = 0.05 LEAF_VEGETABLE calories = 0.75]
+]
+2019-08-20 16:37:11 INFO  SaladLogic:55 - Fit vegetables are: [[weight = 0.3 FRUIT_VEGETABLE calories = 8.1]
+, [weight = 0.3 LEAF_VEGETABLE calories = 7.5]
+, [weight = 0.2 FRUIT_VEGETABLE calories = 4.0]
+, [weight = 0.2 ROOT_VEGETABLE calories = 3.8000000000000003]
+, [weight = 0.15 LEAF_VEGETABLE calories = 3.3]
+, [weight = 0.1 LEAF_VEGETABLE calories = 1.5]
+, [weight = 0.05 LEAF_VEGETABLE calories = 0.75]
+]
+2019-08-20 17:04:02 INFO  SaladLogic:20 - Total calories: 199.87
+2019-08-20 17:04:02 INFO  SaladLogic:29 - Total weight: 4.59
+2019-08-20 17:04:02 INFO  SaladLogic:35 - Vegetables sorted by calories: [[weight = 0.5 FRUIT_VEGETABLEFruit typeCORN calories = 61.5]
+, [weight = 0.6 ROOT_VEGETABLERoot typePOTATO calories = 46.199999999999996]
+, [weight = 0.89 ROOT_VEGETABLERoot typeBEET calories = 38.27]
+, [weight = 0.4 ROOT_VEGETABLERoot typeCARROT calories = 12.8]
+, [weight = 0.9 FRUIT_VEGETABLEFruit typeCUCUMBER calories = 12.15]
+, [weight = 0.3 FRUIT_VEGETABLEFruit typePEPPER calories = 8.1]
+, [weight = 0.3 LEAF_VEGETABLELeaf typeCABBAGE calories = 7.5]
+, [weight = 0.2 FRUIT_VEGETABLEFruit typeTOMATO calories = 4.0]
+, [weight = 0.2 ROOT_VEGETABLERoot typeRADISH calories = 3.8000000000000003]
+, [weight = 0.15 LEAF_VEGETABLELeaf typeSPINACH calories = 3.3]
+, [weight = 0.1 LEAF_VEGETABLELeaf typeCELERY calories = 1.5]
+, [weight = 0.05 LEAF_VEGETABLELeaf typeLETTUCE calories = 0.75]
+]
+2019-08-20 17:04:02 INFO  SaladLogic:41 - Vegetables sorted by weight: [[weight = 0.9 FRUIT_VEGETABLEFruit typeCUCUMBER calories = 12.15]
+, [weight = 0.89 ROOT_VEGETABLERoot typeBEET calories = 38.27]
+, [weight = 0.6 ROOT_VEGETABLERoot typePOTATO calories = 46.199999999999996]
+, [weight = 0.5 FRUIT_VEGETABLEFruit typeCORN calories = 61.5]
+, [weight = 0.4 ROOT_VEGETABLERoot typeCARROT calories = 12.8]
+, [weight = 0.3 FRUIT_VEGETABLEFruit typePEPPER calories = 8.1]
+, [weight = 0.3 LEAF_VEGETABLELeaf typeCABBAGE calories = 7.5]
+, [weight = 0.2 FRUIT_VEGETABLEFruit typeTOMATO calories = 4.0]
+, [weight = 0.2 ROOT_VEGETABLERoot typeRADISH calories = 3.8000000000000003]
+, [weight = 0.15 LEAF_VEGETABLELeaf typeSPINACH calories = 3.3]
+, [weight = 0.1 LEAF_VEGETABLELeaf typeCELERY calories = 1.5]
+, [weight = 0.05 LEAF_VEGETABLELeaf typeLETTUCE calories = 0.75]
+]
+2019-08-20 17:04:02 INFO  SaladLogic:55 - Fit vegetables are: [[weight = 0.3 FRUIT_VEGETABLEFruit typePEPPER calories = 8.1]
+, [weight = 0.3 LEAF_VEGETABLELeaf typeCABBAGE calories = 7.5]
+, [weight = 0.2 FRUIT_VEGETABLEFruit typeTOMATO calories = 4.0]
+, [weight = 0.2 ROOT_VEGETABLERoot typeRADISH calories = 3.8000000000000003]
+, [weight = 0.15 LEAF_VEGETABLELeaf typeSPINACH calories = 3.3]
+, [weight = 0.1 LEAF_VEGETABLELeaf typeCELERY calories = 1.5]
+, [weight = 0.05 LEAF_VEGETABLELeaf typeLETTUCE calories = 0.75]
+]
+2019-08-20 17:05:05 INFO  SaladLogic:20 - Total calories: 199.87
+2019-08-20 17:05:05 INFO  SaladLogic:29 - Total weight: 4.59
+2019-08-20 17:05:05 INFO  SaladLogic:35 - Vegetables sorted by calories: [[weight = 0.5 FRUIT_VEGETABLE CORN calories = 61.5]
+, [weight = 0.6 ROOT_VEGETABLE POTATO calories = 46.199999999999996]
+, [weight = 0.89 ROOT_VEGETABLE BEET calories = 38.27]
+, [weight = 0.4 ROOT_VEGETABLE CARROT calories = 12.8]
+, [weight = 0.9 FRUIT_VEGETABLE CUCUMBER calories = 12.15]
+, [weight = 0.3 FRUIT_VEGETABLE PEPPER calories = 8.1]
+, [weight = 0.3 LEAF_VEGETABLE CABBAGE calories = 7.5]
+, [weight = 0.2 FRUIT_VEGETABLE TOMATO calories = 4.0]
+, [weight = 0.2 ROOT_VEGETABLE RADISH calories = 3.8000000000000003]
+, [weight = 0.15 LEAF_VEGETABLE SPINACH calories = 3.3]
+, [weight = 0.1 LEAF_VEGETABLE CELERY calories = 1.5]
+, [weight = 0.05 LEAF_VEGETABLE LETTUCE calories = 0.75]
+]
+2019-08-20 17:05:05 INFO  SaladLogic:41 - Vegetables sorted by weight: [[weight = 0.9 FRUIT_VEGETABLE CUCUMBER calories = 12.15]
+, [weight = 0.89 ROOT_VEGETABLE BEET calories = 38.27]
+, [weight = 0.6 ROOT_VEGETABLE POTATO calories = 46.199999999999996]
+, [weight = 0.5 FRUIT_VEGETABLE CORN calories = 61.5]
+, [weight = 0.4 ROOT_VEGETABLE CARROT calories = 12.8]
+, [weight = 0.3 FRUIT_VEGETABLE PEPPER calories = 8.1]
+, [weight = 0.3 LEAF_VEGETABLE CABBAGE calories = 7.5]
+, [weight = 0.2 FRUIT_VEGETABLE TOMATO calories = 4.0]
+, [weight = 0.2 ROOT_VEGETABLE RADISH calories = 3.8000000000000003]
+, [weight = 0.15 LEAF_VEGETABLE SPINACH calories = 3.3]
+, [weight = 0.1 LEAF_VEGETABLE CELERY calories = 1.5]
+, [weight = 0.05 LEAF_VEGETABLE LETTUCE calories = 0.75]
+]
+2019-08-20 17:05:05 INFO  SaladLogic:55 - Fit vegetables are: [[weight = 0.3 FRUIT_VEGETABLE PEPPER calories = 8.1]
+, [weight = 0.3 LEAF_VEGETABLE CABBAGE calories = 7.5]
+, [weight = 0.2 FRUIT_VEGETABLE TOMATO calories = 4.0]
+, [weight = 0.2 ROOT_VEGETABLE RADISH calories = 3.8000000000000003]
+, [weight = 0.15 LEAF_VEGETABLE SPINACH calories = 3.3]
+, [weight = 0.1 LEAF_VEGETABLE CELERY calories = 1.5]
+, [weight = 0.05 LEAF_VEGETABLE LETTUCE calories = 0.75]
+]
+2019-08-20 17:06:09 INFO  SaladLogic:20 - Total calories: 199.87
+2019-08-20 17:06:09 INFO  SaladLogic:29 - Total weight: 4.59
+2019-08-20 17:06:09 INFO  SaladLogic:35 - Vegetables sorted by calories: [
+[weight = 0.5 FRUIT_VEGETABLE CORN calories = 61.5], 
+[weight = 0.6 ROOT_VEGETABLE POTATO calories = 46.199999999999996], 
+[weight = 0.89 ROOT_VEGETABLE BEET calories = 38.27], 
+[weight = 0.4 ROOT_VEGETABLE CARROT calories = 12.8], 
+[weight = 0.9 FRUIT_VEGETABLE CUCUMBER calories = 12.15], 
+[weight = 0.3 FRUIT_VEGETABLE PEPPER calories = 8.1], 
+[weight = 0.3 LEAF_VEGETABLE CABBAGE calories = 7.5], 
+[weight = 0.2 FRUIT_VEGETABLE TOMATO calories = 4.0], 
+[weight = 0.2 ROOT_VEGETABLE RADISH calories = 3.8000000000000003], 
+[weight = 0.15 LEAF_VEGETABLE SPINACH calories = 3.3], 
+[weight = 0.1 LEAF_VEGETABLE CELERY calories = 1.5], 
+[weight = 0.05 LEAF_VEGETABLE LETTUCE calories = 0.75]]
+2019-08-20 17:06:09 INFO  SaladLogic:41 - Vegetables sorted by weight: [
+[weight = 0.9 FRUIT_VEGETABLE CUCUMBER calories = 12.15], 
+[weight = 0.89 ROOT_VEGETABLE BEET calories = 38.27], 
+[weight = 0.6 ROOT_VEGETABLE POTATO calories = 46.199999999999996], 
+[weight = 0.5 FRUIT_VEGETABLE CORN calories = 61.5], 
+[weight = 0.4 ROOT_VEGETABLE CARROT calories = 12.8], 
+[weight = 0.3 FRUIT_VEGETABLE PEPPER calories = 8.1], 
+[weight = 0.3 LEAF_VEGETABLE CABBAGE calories = 7.5], 
+[weight = 0.2 FRUIT_VEGETABLE TOMATO calories = 4.0], 
+[weight = 0.2 ROOT_VEGETABLE RADISH calories = 3.8000000000000003], 
+[weight = 0.15 LEAF_VEGETABLE SPINACH calories = 3.3], 
+[weight = 0.1 LEAF_VEGETABLE CELERY calories = 1.5], 
+[weight = 0.05 LEAF_VEGETABLE LETTUCE calories = 0.75]]
+2019-08-20 17:06:09 INFO  SaladLogic:55 - Fit vegetables are: [
+[weight = 0.3 FRUIT_VEGETABLE PEPPER calories = 8.1], 
+[weight = 0.3 LEAF_VEGETABLE CABBAGE calories = 7.5], 
+[weight = 0.2 FRUIT_VEGETABLE TOMATO calories = 4.0], 
+[weight = 0.2 ROOT_VEGETABLE RADISH calories = 3.8000000000000003], 
+[weight = 0.15 LEAF_VEGETABLE SPINACH calories = 3.3], 
+[weight = 0.1 LEAF_VEGETABLE CELERY calories = 1.5], 
+[weight = 0.05 LEAF_VEGETABLE LETTUCE calories = 0.75]]
+2019-08-20 17:07:07 INFO  SaladLogic:20 - Total calories: 199.87
+2019-08-20 17:07:07 INFO  SaladLogic:29 - Total weight: 4.59
+2019-08-20 17:07:07 INFO  SaladLogic:35 - 
+Vegetables sorted by calories: 
+[
+[weight = 0.5 FRUIT_VEGETABLE CORN calories = 61.5], 
+[weight = 0.6 ROOT_VEGETABLE POTATO calories = 46.199999999999996], 
+[weight = 0.89 ROOT_VEGETABLE BEET calories = 38.27], 
+[weight = 0.4 ROOT_VEGETABLE CARROT calories = 12.8], 
+[weight = 0.9 FRUIT_VEGETABLE CUCUMBER calories = 12.15], 
+[weight = 0.3 FRUIT_VEGETABLE PEPPER calories = 8.1], 
+[weight = 0.3 LEAF_VEGETABLE CABBAGE calories = 7.5], 
+[weight = 0.2 FRUIT_VEGETABLE TOMATO calories = 4.0], 
+[weight = 0.2 ROOT_VEGETABLE RADISH calories = 3.8000000000000003], 
+[weight = 0.15 LEAF_VEGETABLE SPINACH calories = 3.3], 
+[weight = 0.1 LEAF_VEGETABLE CELERY calories = 1.5], 
+[weight = 0.05 LEAF_VEGETABLE LETTUCE calories = 0.75]]
+2019-08-20 17:07:07 INFO  SaladLogic:41 - 
+Vegetables sorted by weight: 
+[
+[weight = 0.9 FRUIT_VEGETABLE CUCUMBER calories = 12.15], 
+[weight = 0.89 ROOT_VEGETABLE BEET calories = 38.27], 
+[weight = 0.6 ROOT_VEGETABLE POTATO calories = 46.199999999999996], 
+[weight = 0.5 FRUIT_VEGETABLE CORN calories = 61.5], 
+[weight = 0.4 ROOT_VEGETABLE CARROT calories = 12.8], 
+[weight = 0.3 FRUIT_VEGETABLE PEPPER calories = 8.1], 
+[weight = 0.3 LEAF_VEGETABLE CABBAGE calories = 7.5], 
+[weight = 0.2 FRUIT_VEGETABLE TOMATO calories = 4.0], 
+[weight = 0.2 ROOT_VEGETABLE RADISH calories = 3.8000000000000003], 
+[weight = 0.15 LEAF_VEGETABLE SPINACH calories = 3.3], 
+[weight = 0.1 LEAF_VEGETABLE CELERY calories = 1.5], 
+[weight = 0.05 LEAF_VEGETABLE LETTUCE calories = 0.75]]
+2019-08-20 17:07:07 INFO  SaladLogic:55 - 
+Fit vegetables are: 
+[
+[weight = 0.3 FRUIT_VEGETABLE PEPPER calories = 8.1], 
+[weight = 0.3 LEAF_VEGETABLE CABBAGE calories = 7.5], 
+[weight = 0.2 FRUIT_VEGETABLE TOMATO calories = 4.0], 
+[weight = 0.2 ROOT_VEGETABLE RADISH calories = 3.8000000000000003], 
+[weight = 0.15 LEAF_VEGETABLE SPINACH calories = 3.3], 
+[weight = 0.1 LEAF_VEGETABLE CELERY calories = 1.5], 
+[weight = 0.05 LEAF_VEGETABLE LETTUCE calories = 0.75]]

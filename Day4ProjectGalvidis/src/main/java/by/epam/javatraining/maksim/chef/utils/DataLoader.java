@@ -1,65 +1,51 @@
 package by.epam.javatraining.maksim.chef.utils;
 
-import by.epam.javatraining.maksim.chef.entity.chefentity.Vegetable;
+import by.epam.javatraining.maksim.chef.entity.chefentity.FruitVegetable;
+import by.epam.javatraining.maksim.chef.entity.chefentity.LeafVegetable;
+import by.epam.javatraining.maksim.chef.entity.chefentity.RootVegetable;
 import by.epam.javatraining.maksim.chef.entity.saladentity.Salad;
 import by.epam.javatraining.maksim.chef.myInterfaces.IDataLoader;
+import by.epam.javatraining.maksim.chef.myenum.FruitType;
+import by.epam.javatraining.maksim.chef.myenum.LeafType;
+import by.epam.javatraining.maksim.chef.myenum.RootType;
 import by.epam.javatraining.maksim.chef.myenum.VegetableType;
-import by.epam.javatraining.maksim.chef.myexception.VegetableException;
 import org.apache.log4j.Logger;
-import java.io.FileReader;
-import java.io.Reader;
 
-import org.apache.commons.csv.CSVFormat;
-import org.apache.commons.csv.CSVRecord;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
 
 
 public class DataLoader implements IDataLoader {
     private static Logger logger = Logger.getLogger(DataLoader.class);
 
-    VegetableType vegetableType = null;
-
     @Override
-    public void loadSaladData(Salad salad) {
-
-        VegetableCreate vegetableCreate = new VegetableCreate();
-        Vegetable vegetable;
-
-        VegetableType type;
-        String name;
+    public  void loadSaladData(File file, Salad salad) throws FileNotFoundException {
+        Scanner sc = new Scanner(file);
+        String type;
+        String vegetableType;
         double weight;
-
-        try (Reader in = new FileReader("vegetables.txt")) {
-            Iterable<CSVRecord> vegetableData = CSVFormat.DEFAULT.withHeader(VEGETABLE_HEADERS).withFirstRecordAsHeader()
-                    .parse(in);
-
-            for (CSVRecord data : vegetableData) {
-                try {
-                    type = VegetableType.valueOf(data.get("Type"));
-                    name = data.get("Name");
-                    weight = new Double(data.get("Weight"));
-                    switch (type) {
-                        case FRUIT_VEGETABLE:
-                            vegetableType = VegetableType.FRUIT_VEGETABLE;
-                            vegetable = vegetableCreate.createVegetable(name, vegetableType, weight);
-                            break;
-                        case LEAF_VEGETABLE:
-                            vegetableType = VegetableType.LEAF_VEGETABLE;
-                            vegetable = vegetableCreate.createVegetable(name, vegetableType, weight);
-                            break;
-                        case ROOT_VEGETABLE:
-                            vegetableType = VegetableType.ROOT_VEGETABLE;
-                            vegetable = vegetableCreate.createVegetable(name, vegetableType, weight);
-                            break;
-                        default:
-                            throw new VegetableException("wrong vegetable type: " + type);
-                    }
-
-                } catch (Exception exception) {
-                    logger.error(exception);
+        while (sc.hasNext()){
+            type = sc.next();
+            vegetableType = sc.next();
+            weight = sc.nextDouble();
+            if (ValidateSalad.isSalad(type, vegetableType, weight)){
+                switch (VegetableType.valueOf(type)){
+                    case FRUIT_VEGETABLE:
+                        Salad.addVegetable(new FruitVegetable(weight, FruitType.valueOf(vegetableType)));
+                        break;
+                    case LEAF_VEGETABLE:
+                        Salad.addVegetable(new LeafVegetable(weight, LeafType.valueOf(vegetableType)));
+                        break;
+                    case ROOT_VEGETABLE:
+                        Salad.addVegetable(new RootVegetable(weight, RootType.valueOf(vegetableType)));
+                        break;
+                    default:
+                        logger.info("Incorrect type.");
+                        break;
                 }
             }
-        } catch (Exception exception) {
-            logger.error(exception);
         }
     }
 }

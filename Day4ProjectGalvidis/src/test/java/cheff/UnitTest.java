@@ -24,9 +24,9 @@ import org.junit.jupiter.api.Test;
  * 
  * This is the UnitTest class; it's created for passing Unit test.
  * 
- * @author Vitaly Kononov
- * @since 08-08-2019
- * @version 1.0
+ * @author Maksim Halvidzis
+ * @since 20-08-2019
+ * @version 2.0
  */
 class UnitTest {
 

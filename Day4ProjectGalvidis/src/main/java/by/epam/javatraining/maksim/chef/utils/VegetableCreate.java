@@ -52,13 +52,13 @@ public class VegetableCreate {
                 }
                 break;
         }
-        if (isVegi(vegetable)) {
+        if (isNotVegetable(vegetable)) {
             throw new VegetableException(" failed check, bad or negative parameters");
         }
         return vegetable;
     }
 
-    public boolean isVegi(Vegetable vegetable) {
+    public boolean isNotVegetable(Vegetable vegetable) {
         if (vegetable != null && vegetable.getWeight() > 0) {
             return false;
         }

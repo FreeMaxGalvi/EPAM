@@ -6,31 +6,31 @@ import by.epam.javatraining.maksim.chef.utils.Calculate;
 
 public class FruitVegetable extends Vegetable {
 
-    private FruitType searchFruitType;
+    private FruitType defineFruitType;
     private double calories;
 
-    public FruitVegetable(double weight, FruitType searchFruitType){
+    public FruitVegetable(double weight, FruitType defineFruitType){
         super(weight);
-        this.searchFruitType = searchFruitType;
-        this.calories = Calculate.fruitCalories(weight, searchFruitType);
+        this.defineFruitType = defineFruitType;
+        this.calories = Calculate.fruitCalories(weight, defineFruitType);
     }
 
     @Override
-    public VegetableType searchVegetableType() {
+    public VegetableType defineVegetableType() {
         return VegetableType.FRUIT_VEGETABLE;
     }
 
     @Override
     public String toString(){
-        return super.toString() +" calories = " + calories + "]";
+        return super.toString() + " " + defineFruitType + " calories = " + calories + "]";
     }
 
-    public FruitType getSearchFruitType() {
-        return searchFruitType;
+    public FruitType getDefineFruitType() {
+        return defineFruitType;
     }
 
-    public void setSearchFruitType(){
-        this.searchFruitType = searchFruitType;
+    public void setDefineFruitType(){
+        this.defineFruitType = defineFruitType;
     }
 
     public double getCalories() {
@@ -58,7 +58,7 @@ public class FruitVegetable extends Vegetable {
             return false;
         }
         FruitVegetable other = (FruitVegetable) obj;
-        if(calories != other.calories || searchFruitType != other.searchFruitType){
+        if(calories != other.calories || defineFruitType != other.defineFruitType){
             return false;
         }
         return true;
